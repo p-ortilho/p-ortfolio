@@ -3,6 +3,7 @@
 :root{
     --cor__primaria: #000000;
     --cor__secundaria: #F5F7F8;
+    --cor__terciaria: #4a26c2;
     --fonte__principal: "Montserrat", system-ui;
     --fonte__personalizada: "Krona One", system-ui;
 }
@@ -52,4 +53,55 @@ body{
     font-family: var(--fonte__principal);
     font-size: 1em;
     font-weight: 500;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner__conteudo{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__container__conteudo{
+    width: 60rem;
+}
+
+.banner__titulo{
+    font-family: var(--fonte__principal);
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+strong{
+    color: var(--cor__terciaria);
+}
+
+.banner__texto{
+    font-family: var(--fonte__principal);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner__lista__links{
+    display: flex;
+    gap: 32px;
+}
+
+.banner__links{
+    font-family: var(--fonte__principal);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.banner__perfil--img{
+    width: 20%;
+    border-radius: 50%;
 }
