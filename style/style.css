@@ -87,6 +87,7 @@ strong{
     font-family: var(--fonte__principal);
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
+    font-weight: 500;
 }
 
 .banner__lista__links{
@@ -107,8 +108,10 @@ strong{
 }
 
 .conteudo{
+    display: flex;
+    flex-direction: column;
     width: 1440px;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .sobre{
@@ -128,4 +131,30 @@ strong{
     font-size: 1rem;
     line-height: 1.3em;
     font-weight: 400;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.titulo__skills{
+    font-family: var(--fonte__principal);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.lista__skills{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills--icone{
+    width: 96px;
+    height: 96px;
 }
