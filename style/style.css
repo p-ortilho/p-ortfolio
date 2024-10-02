@@ -105,3 +105,27 @@ strong{
     width: 20%;
     border-radius: 50%;
 }
+
+.conteudo{
+    width: 1440px;
+    gap: 2rem;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.titulo__sobre{
+    font-family: var(--fonte__principal);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.texto__sobre{
+    font-family: var(--fonte__principal);
+    font-size: 1rem;
+    line-height: 1.3em;
+    font-weight: 400;
+}
