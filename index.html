@@ -190,7 +190,33 @@
                 </li>
             </ul>
         </section>
+        <section class="contato">
+            <h1 class="titulo__contato">Contato</h1>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <div class="container__input">
+                    <input type="text" name="honeypot" style="display:none"><!-- Tag responsavel por proteger contra spam -->
+                    <input type="hidden" name="accessKey" value="7e51df47-7d1b-4475-8c50-3fce25492ead"><!-- Tag onde se colocar a chave de acesso -->
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html"><!-- Tag de redireonamento de página -->
+                    <!-- Tags que aparecem no formulário -->
+                    <label>Nome</label>
+                    <input type="text" name="name" required class="entradas"/>
+                    <label>E-mail</label>
+                    <input type="email" name="email" required class="entradas"/>
+                </div>
+                <div class="container__mensagem">
+                    <label>Mensagem</label>
+                    <textarea name="message"></textarea>
+                    <input type="submit" value="Submit"/>
+                </div>
+            </form>
+        </section>
     </main>
     <!-- FIM CONTEUDO DA PÁGINA -->
+    
+    <!-- INICIO RODAPÉ -->
+     <footer class="rodape">
+        <p class="rodape__texto">© 2024 Portilho. Todos os direitos reservados.</p>
+     </footer>
+    <!-- FIM RODAPÉ -->
 </body>
 </html>
