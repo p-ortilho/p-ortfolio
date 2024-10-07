@@ -26,14 +26,14 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 1rem !important;
 }
 
 .cabecalho {
     display: flex;
     width: 100%;
     max-width: 1440px;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0.9rem;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -67,6 +67,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 
 .banner__conteudo {
@@ -129,6 +130,7 @@ strong {
 }
 
 .sobre{
+    width: 760px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -160,6 +162,7 @@ strong {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .skills--icone {
@@ -399,6 +402,7 @@ html, .conteudo__body{
         width: 25%;
     }
     .sobre{
+        width: 100%;
         padding: 2rem;
     }
     .titulo__sobre, .titulo__skills, .titulo__projetos, .titulo__contato{
@@ -471,14 +475,14 @@ html, .conteudo__body{
     .banner__links{
         font-size: 13px;
     }
+    .sobre{
+        width: 100%;
+    }
     .sobre, .skills, .projetos, .contato{
         padding: 16px;
     }
     .titulo__sobre, .titulo__skills, .titulo__projetos, .titulo__contato{
         font-size: 1.2rem;
-    }
-    .lista__skills{
-        flex-wrap: wrap;
     }
     .skills--icone{
         padding: 8px;
