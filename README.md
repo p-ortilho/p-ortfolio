@@ -1,6 +1,6 @@
 # 🌟 Portfólio Pessoal
 
-Bem-vindo ao meu portfólio pessoal! 🌐 Este site foi desenvolvido como parte do Front End: Challenge Portfólio pela plataforma Alura em parceria com o programa Oracle ONE. Aqui, você encontrará informações sobre mim, minhas habilidades técnicas, projetos que desenvolvi e um formulário de contato para que possamos nos conectar. 📞
+Bem-vindo ao meu portfólio pessoal! 🌐 Este site foi desenvolvido como parte do Front End: Challenge Portfólio pela plataforma Alura em parceria com o programa Oracle ONE. Aqui, você encontrará informações sobre mim, minhas habilidades técnicas, projetos que desenvolvi e um formulário de contato para que possamos nos conectar. 
 
 ## Sobre o Projeto 🌐
 
