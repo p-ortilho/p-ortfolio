@@ -126,7 +126,7 @@ strong {
 }
 
 .sobre{
-    width: 40rem;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -134,7 +134,7 @@ strong {
 }
 
 .skills, .projetos {
-    width: 100%; /*ALTERADO*/
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
